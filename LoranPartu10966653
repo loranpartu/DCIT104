@@ -7,7 +7,7 @@ for n in range(2,Number+1):
         for i in odd:
             if i%i==0 and i%1==0:
                 Is_Prime=True
-                for j in range(2,(i//2)):
+                for j in range(2,(i//2)+1):
                     if i%j==0:
                         Is_Prime=False
         if Is_Prime:
